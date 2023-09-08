@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="1f19-6509-d906-ca10" name="Imperium - Adeptus Custodes" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="1f19-6509-d906-ca10" name="Imperium - Adeptus Custodes" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue">
   <categoryEntries>
     <categoryEntry id="a43a-4cf6-6443-f48e" name="Aleya" hidden="false"/>
     <categoryEntry id="5386-42fc-f4d0-7d64" name="Allarus Custodians" hidden="false"/>
@@ -149,17 +149,17 @@
     </selectionEntry>
     <selectionEntry id="c8a6-a4c5-703e-b717" name="Allarus Custodians" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="51b2-306e-1021-d207" value="195">
+        <modifier type="set" field="51b2-306e-1021-d207" value="210">
           <conditions>
             <condition field="selections" scope="c8a6-a4c5-703e-b717" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="51b2-306e-1021-d207" value="325">
+        <modifier type="set" field="51b2-306e-1021-d207" value="350">
           <conditions>
             <condition field="selections" scope="c8a6-a4c5-703e-b717" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="51b2-306e-1021-d207" value="390">
+        <modifier type="set" field="51b2-306e-1021-d207" value="420">
           <conditions>
             <condition field="selections" scope="c8a6-a4c5-703e-b717" value="6" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="equalTo"/>
           </conditions>
@@ -311,7 +311,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="130"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="140"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d7cb-7d30-715b-50d2" name="Anathema Psykana Rhino" hidden="false" collective="false" import="true" type="model">
@@ -485,24 +485,14 @@
         <entryLink id="13c5-668b-33bd-328f" name="Shield Host Enhancements" hidden="false" collective="false" import="true" targetId="a43b-fe98-3d93-435d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="120"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="91b3-2e1c-e642-d213" name="Custodian Guard" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="51b2-306e-1021-d207" value="225">
+        <modifier type="set" field="51b2-306e-1021-d207" value="250">
           <conditions>
             <condition field="selections" scope="91b3-2e1c-e642-d213" value="5" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="atLeast"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="51b2-306e-1021-d207" value="405">
-          <conditions>
-            <condition field="selections" scope="91b3-2e1c-e642-d213" value="5" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="greaterThan"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="51b2-306e-1021-d207" value="450">
-          <conditions>
-            <condition field="selections" scope="91b3-2e1c-e642-d213" value="10" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -533,7 +523,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="a293-9470-77c1-c8da" name="Custodian Guard" hidden="false" collective="false" import="true" defaultSelectionEntryId="5bbc-172f-4cb8-e6da">
           <constraints>
-            <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2678-0eb8-9438-f632" type="max"/>
+            <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2678-0eb8-9438-f632" type="max"/>
             <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="acf3-068c-d098-383b" type="min"/>
           </constraints>
           <selectionEntries>
@@ -728,14 +718,14 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="180"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="200"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9610-b148-8433-93b8" name="Custodian Wardens" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="51b2-306e-1021-d207" value="300">
+        <modifier type="set" field="51b2-306e-1021-d207" value="275">
           <conditions>
-            <condition field="selections" scope="9610-b148-8433-93b8" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+            <condition field="selections" scope="9610-b148-8433-93b8" value="5" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -797,7 +787,7 @@
         <selectionEntryGroup id="b18e-1308-8400-ee07" name="Custodian Wardens" hidden="false" collective="false" import="true" defaultSelectionEntryId="5195-95e9-6317-18ef">
           <constraints>
             <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c65-a533-a96f-871f" type="min"/>
-            <constraint field="selections" scope="parent" value="6" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1af5-ea3a-c93d-3d89" type="max"/>
+            <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1af5-ea3a-c93d-3d89" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="5195-95e9-6317-18ef" name="Custodian Warden (Guardian Spear)" hidden="false" collective="false" import="true" type="model">
@@ -862,7 +852,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="150"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="220"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7099-71b-56e8-7191" name="Knight-Centura" hidden="false" collective="false" import="true" type="model">
@@ -1308,7 +1298,7 @@
         <entryLink id="f556-ba5a-094c-641c" name="Shield Host Enhancements" hidden="false" collective="false" import="true" targetId="a43b-fe98-3d93-435d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="120"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="140"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6319-eeba-b717-bd86" name="Shield-Captain in Allarus Terminator Armour" hidden="false" collective="false" import="true" type="model">
@@ -1403,15 +1393,15 @@
             </selectionEntry>
             <selectionEntry id="a576-b3a0-7198-2094" name="Castellan Axe" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="ea20-f463-db39-5c55" name="Castellan axe" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                <profile id="ea20-f463-db39-5c55" name="Castellan axe" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                   <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">Melee</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">9</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="1c2c-2282-3f68-6e7b" name="Castellan axe" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
@@ -1438,7 +1428,7 @@
         <entryLink id="56cd-ab3e-43b5-9f8d" name="Shield Host Enhancements" hidden="false" collective="false" import="true" targetId="a43b-fe98-3d93-435d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="120"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="140"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="58fa-4a25-a5af-1144" name="Shield-Captain on Dawneagle Jetbike" hidden="false" collective="false" import="true" type="model">
@@ -1546,7 +1536,7 @@
         <entryLink id="6031-030a-fb16-fa09" name="Shield Host Enhancements" hidden="false" collective="false" import="true" targetId="a43b-fe98-3d93-435d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="145"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="180"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7d7c-c212-47a3-38e4" name="Trajann Valoris" hidden="false" collective="false" import="true" type="model">
@@ -1632,7 +1622,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="145"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="160"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8103-2e01-5d6a-b761" name="Valerian" hidden="false" collective="false" import="true" type="model">
@@ -1941,26 +1931,16 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="260"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="240"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="918b-c9ed-7af7-74df" name="Vertus Praetors" hidden="false" collective="false" import="true" type="unit">
       <modifierGroups>
         <modifierGroup>
           <modifiers>
-            <modifier type="set" field="51b2-306e-1021-d207" value="270">
+            <modifier type="set" field="51b2-306e-1021-d207" value="240">
               <conditions>
                 <condition field="selections" scope="918b-c9ed-7af7-74df" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="atLeast"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="51b2-306e-1021-d207" value="450">
-              <conditions>
-                <condition field="selections" scope="918b-c9ed-7af7-74df" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="greaterThan"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="51b2-306e-1021-d207" value="540">
-              <conditions>
-                <condition field="selections" scope="918b-c9ed-7af7-74df" value="6" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2056,24 +2036,24 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="180"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="160"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dd2d-568a-9c56-1b6e" name="Vigilators" hidden="false" collective="false" import="true" type="unit">
       <modifierGroups>
         <modifierGroup>
           <modifiers>
-            <modifier type="set" field="51b2-306e-1021-d207" value="75">
+            <modifier type="set" field="51b2-306e-1021-d207" value="65">
               <conditions>
                 <condition field="selections" scope="dd2d-568a-9c56-1b6e" value="5" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="atLeast"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="51b2-306e-1021-d207" value="135">
+            <modifier type="set" field="51b2-306e-1021-d207" value="115">
               <conditions>
                 <condition field="selections" scope="dd2d-568a-9c56-1b6e" value="5" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="greaterThan"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="51b2-306e-1021-d207" value="150">
+            <modifier type="set" field="51b2-306e-1021-d207" value="125">
               <conditions>
                 <condition field="selections" scope="dd2d-568a-9c56-1b6e" value="10" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="equalTo"/>
               </conditions>
@@ -2171,24 +2151,24 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="60"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="50"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="503b-f7be-eeeb-9e31" name="Witchseekers" hidden="false" collective="false" import="true" type="unit">
       <modifierGroups>
         <modifierGroup>
           <modifiers>
-            <modifier type="set" field="51b2-306e-1021-d207" value="75">
+            <modifier type="set" field="51b2-306e-1021-d207" value="65">
               <conditions>
                 <condition field="selections" scope="503b-f7be-eeeb-9e31" value="5" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="atLeast"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="51b2-306e-1021-d207" value="135">
+            <modifier type="set" field="51b2-306e-1021-d207" value="115">
               <conditions>
                 <condition field="selections" scope="503b-f7be-eeeb-9e31" value="5" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="greaterThan"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="51b2-306e-1021-d207" value="150">
+            <modifier type="set" field="51b2-306e-1021-d207" value="125">
               <conditions>
                 <condition field="selections" scope="503b-f7be-eeeb-9e31" value="10" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="equalTo"/>
               </conditions>
@@ -2310,7 +2290,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="60"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="50"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="af0f-5212-907e-7125" name="Custodian Guard with Adrasite and Pyrithite spears" hidden="false" collective="false" import="true" type="unit">
@@ -2418,7 +2398,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="325"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="300"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6f9f-e6aa-ba13-aab1" name="Sagittarum Custodians" hidden="false" collective="false" import="true" type="unit">
@@ -2491,12 +2471,12 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="225"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="03bc-0141-b967-40e0" name="Aquilon Custodians" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="51b2-306e-1021-d207" value="460">
+        <modifier type="set" field="51b2-306e-1021-d207" value="420">
           <conditions>
             <condition field="selections" scope="03bc-0141-b967-40e0" value="4" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" type="atLeast"/>
           </conditions>
@@ -2574,17 +2554,6 @@
             </selectionEntry>
             <selectionEntry id="0ad8-9b00-1a86-728a" name="Aquilon Custodian (Solarite power gauntlet &amp; Twin adrathic destructor)" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="7005-6f27-24e4-06b7" name="Infernus firepike" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">N/A</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Ignores Cover, Torrent</characteristic>
-                  </characteristics>
-                </profile>
                 <profile id="7c1d-77bd-bf41-51ed" name="Solarite power gauntlet" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                   <characteristics>
                     <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
@@ -2596,14 +2565,7 @@
                     <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                   </characteristics>
                 </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="2a66-fa39-323b-d151" name="Aquilon Custodian (Solarite power gauntlet &amp; Infernus firepike)" hidden="false" collective="false" import="true" type="model">
-              <profiles>
-                <profile id="6e24-3562-ea94-1f5b" name="Twin Adrathic destructor" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                <profile id="c3e-518c-7f61-6f8b" name="Twin Adrathic destructor" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
@@ -2614,6 +2576,13 @@
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked</characteristic>
                   </characteristics>
                 </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2a66-fa39-323b-d151" name="Aquilon Custodian (Solarite power gauntlet &amp; Infernus firepike)" hidden="false" collective="false" import="true" type="model">
+              <profiles>
                 <profile id="556f-5f60-5cfb-f1fd" name="Solarite power gauntlet" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                   <characteristics>
                     <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
@@ -2625,6 +2594,17 @@
                     <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                   </characteristics>
                 </profile>
+                <profile id="b0b8-5ca2-908a-4c67" name="Infernus firepike" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">N/A</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Ignores Cover, Torrent</characteristic>
+                  </characteristics>
+                </profile>
               </profiles>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
@@ -2632,17 +2612,6 @@
             </selectionEntry>
             <selectionEntry id="2ea4-2187-a3d7-fa4e" name="Aquilon Custodian (Solarite power talon &amp; infernus firepike)" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="ef6e-929c-1b14-56d5" name="Twin Adrathic destructor" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked</characteristic>
-                  </characteristics>
-                </profile>
                 <profile id="30bf-6f0c-14f3-db2a" name="Solarite power talon" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                   <characteristics>
                     <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
@@ -2652,6 +2621,17 @@
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
                     <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="4f86-2e96-e6a3-8df1" name="Infernus firepike" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">N/A</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Ignores Cover, Torrent</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2690,17 +2670,6 @@
             </selectionEntry>
             <selectionEntry id="ef9e-37b5-b42f-65ee" name="Aquilon Custodian (Solarite power talon &amp; Twin adrathic destructor)" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="dfb4-c7c4-c430-02da" name="Infernus firepike" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">N/A</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Ignores Cover, Torrent</characteristic>
-                  </characteristics>
-                </profile>
                 <profile id="9185-471a-7b3d-4b2b" name="Solarite power talon" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                   <characteristics>
                     <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
@@ -2712,6 +2681,17 @@
                     <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
                   </characteristics>
                 </profile>
+                <profile id="ae0b-7a44-8a56-a413" name="Twin Adrathic destructor" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked</characteristic>
+                  </characteristics>
+                </profile>
               </profiles>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
@@ -2721,12 +2701,12 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="230"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="210"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="00ab-41c4-cf52-4ad2" name="Agamatus Custodians" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="51b2-306e-1021-d207" value="560">
+        <modifier type="set" field="51b2-306e-1021-d207" value="480">
           <conditions>
             <condition field="selections" scope="00ab-41c4-cf52-4ad2" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atLeast"/>
           </conditions>
@@ -2841,12 +2821,12 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="280"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="240"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="201e-e502-a8d1-3974" name="Venatari Custodians" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="51b2-306e-1021-d207" value="470">
+        <modifier type="set" field="51b2-306e-1021-d207" value="400">
           <conditions>
             <condition field="selections" scope="201e-e502-a8d1-3974" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atLeast"/>
           </conditions>
@@ -2970,7 +2950,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="235"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="200"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4988-d93e-5034-2b3c" name="Contemptor-Galatus Dreadnought" hidden="false" collective="false" import="true" type="model">
@@ -3154,7 +3134,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="155"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="165"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="06df-2fb2-8dfa-2fce" name="Pallas Grav-attack" hidden="false" collective="false" import="true" type="model">
@@ -3229,7 +3209,7 @@
         </profile>
         <profile id="60a4-507e-da36-683c" name="Advanced Firepower" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack with its twin iliastus accelerator cannon that targets an enemy unit (exckluding MONSTER and VEHICLES), that attack has the LETHAL HITS ability. Each time thismodel makes an attack with its twin arachnus heavy blaze cannon that gargets an enemy MONSTER or VEHICLE unit, that attack has the LETHAL HITS ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack with its Twin iliastus accelerator cannon that targets an enemy unit (excluding MONSTERS and VEHICLES), that attack has the [LETHAL HITS] ability. Each time this model makes an attack with its Twin arachnus heavy blaze cannon that targets an enemy MONSTER or VEHICLE unit, that attack has the [LETHAL HITS] ability.</characteristic>
           </characteristics>
         </profile>
         <profile id="6070-91c7-6463-31cd" name="Damaged: 1-5 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -3429,9 +3409,9 @@
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="7317-2717-46b6-a19e" name="Telemon Caestus &amp; Twin plasma projector" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="7317-2717-46b6-a19e" name="Telemon Casetus &amp; Twin plasma projector" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="0373-eed1-b39f-953a" name="Telemon Caestus" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                <profile id="0373-eed1-b39f-953a" name="Telemon Casetus" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                   <characteristics>
                     <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                     <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
