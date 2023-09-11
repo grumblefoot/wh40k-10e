@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="b654-a18a-ea1-3bf2" name="Xenos - Necrons" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="15" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="b654-a18a-ea1-3bf2" name="Xenos - Necrons" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="17" battleScribeVersion="2.03" type="catalogue">
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Enhancements" hidden="false" id="9574-b5d1-8b0a-d95d">
       <constraints>
@@ -10,6 +10,7 @@
         <selectionEntry type="upgrade" import="true" name="Veil of Darkness" hidden="false" id="a562-e37c-3a4d-d152">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="722-5683-4ff-da16"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d044-31b5-c11a-2504" includeChildSelections="true"/>
           </constraints>
           <profiles>
             <profile name="Veil of Darkness" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="134a-950c-df71-1a76">
@@ -25,6 +26,7 @@
         <selectionEntry type="upgrade" import="true" name="Hypermaterial Ablator" hidden="false" id="76a0-7f0a-49e7-992a">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="722-5683-4ff-da16"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f2e6-938b-9ff0-37c7" includeChildSelections="true"/>
           </constraints>
           <profiles>
             <profile name="Hypermaterial Ablator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="471d-7d60-1f1d-f7e1">
@@ -47,6 +49,7 @@
           </profiles>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="722-5683-4ff-da16"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2882-519c-78d-8969" includeChildSelections="true"/>
           </constraints>
           <costs>
             <cost name="pts" typeId="51b2-306e-1021-d207" value="30"/>
@@ -55,6 +58,7 @@
         <selectionEntry type="upgrade" import="true" name="Sempiternal Weave" hidden="false" id="d191-f492-ef11-6c9d">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="722-5683-4ff-da16"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5c7c-8a55-a4c8-6127" includeChildSelections="true"/>
           </constraints>
           <profiles>
             <profile name="Sempiternal Weave" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d2be-fc47-cd4e-92a4">
@@ -175,7 +179,7 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Imotekh the Stormlord" hidden="false" id="49fd-a80d-8cc0-c76b">
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="105"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="ee0-cf31-4fb5-6b26" id="1c9a-1fa6-7f-3efe" primary="false" name="Faction: Necrons"/>
@@ -832,7 +836,7 @@ in its place, with all of its wounds remaining (if the selected model was leadi
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Skorpekh Lord" hidden="false" id="c401-d95f-c5ce-7738">
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="115"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="ee0-cf31-4fb5-6b26" id="c38a-24bb-46a5-cb13" primary="false" name="Faction: Necrons"/>
@@ -3822,6 +3826,25 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or
                     <profile name="Shieldvanes" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d6d-bb49-bf4c-d1d">
                       <characteristics>
                         <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The bearer has a 3+ Save characteristic.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Close combat weapon" hidden="false" id="c6ea-6387-14b2-fc83">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7db6-7a14-ff3e-3b4a"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ebad-c34b-9f09-50a1"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Close combat weapon" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="68dd-cc96-b5c0-8010">
+                      <characteristics>
+                        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
+                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                        <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
