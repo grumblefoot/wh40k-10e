@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="5a44-f048-114b-e3ff" name="Imperium - Astra Militarum - Library" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="20" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="5a44-f048-114b-e3ff" name="Imperium - Astra Militarum - Library" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="22" battleScribeVersion="2.03" type="catalogue">
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Aegis Defence Line" hidden="false" id="cb99-456-f100-40ed">
       <categoryLinks>
@@ -91,7 +91,7 @@
                 <entryLink import="true" name="Lascannon" hidden="false" type="selectionEntry" id="fc87-32b9-9e7b-701a" targetId="af85-b936-7f-430c"/>
                 <entryLink import="true" name="Heavy Flamer" hidden="false" type="selectionEntry" id="757-da98-3e00-3e06" targetId="6fef-cbbd-be33-44a4"/>
                 <entryLink import="true" name="Missile Launcher" hidden="false" type="selectionEntry" id="9809-33d9-9594-f30f" targetId="fc7a-6cff-c0e5-3b96"/>
-                <entryLink import="true" name="Plasma Cannon" hidden="false" type="selectionEntry" id="525b-aaab-bb53-ca9c" targetId="3845-704c-f117-d6c9"/>
+                <entryLink import="true" name="Plasma Cannon" hidden="false" type="selectionEntry" id="525b-aaab-bb53-ca9c" targetId="f26-434a-79ef-40a5"/>
               </entryLinks>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b5bb-4460-498a-d4da"/>
@@ -6273,7 +6273,7 @@
                 <entryLink import="true" name="Lascannon" hidden="false" type="selectionEntry" id="26e9-862-9862-e1ba" targetId="af85-b936-7f-430c"/>
                 <entryLink import="true" name="Heavy Flamer" hidden="false" type="selectionEntry" id="6b15-7d94-fb23-454d" targetId="6fef-cbbd-be33-44a4"/>
                 <entryLink import="true" name="Missile Launcher" hidden="false" type="selectionEntry" id="744c-fd1a-5ebe-46c7" targetId="fc7a-6cff-c0e5-3b96"/>
-                <entryLink import="true" name="Plasma Cannon" hidden="false" type="selectionEntry" id="1844-b72f-b74-4dd" targetId="3845-704c-f117-d6c9"/>
+                <entryLink import="true" name="Plasma Cannon" hidden="false" type="selectionEntry" id="1844-b72f-b74-4dd" targetId="f26-434a-79ef-40a5"/>
                 <entryLink targetId="866e-e876-1f61-2022" id="715a-8901-7a57-7b37" type="selectionEntry" name="Militarum Multi-laser" hidden="false"/>
               </entryLinks>
               <constraints>
@@ -13793,7 +13793,8 @@
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Multi-laser" hidden="false" id="b009-87af-264e-62c0">
                   <constraints>
-                    <constraint type="exactly" value="7" field="selections" scope="parent" shared="true" id="470d-1aaa-f07-40df" includeChildSelections="true"/>
+                    <constraint type="min" value="7" field="selections" scope="parent" shared="true" id="1f77-f9cb-f9-6343" includeChildSelections="false"/>
+                    <constraint type="max" value="7" field="selections" scope="parent" shared="true" id="b449-28f3-8427-88a5" includeChildSelections="false"/>
                   </constraints>
                   <profiles>
                     <profile name="Multi-laser" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="49ff-a1ba-78fc-e44f">
@@ -13815,7 +13816,8 @@
               <entryLinks>
                 <entryLink import="true" name="Heavy Bolter" hidden="false" type="selectionEntry" id="d96c-4d81-6507-d398" targetId="51a8-ffe2-928f-3f50">
                   <constraints>
-                    <constraint type="exactly" value="7" field="selections" scope="parent" shared="true" id="ab9-c8d-2cce-9612" includeChildSelections="true"/>
+                    <constraint type="min" value="7" field="selections" scope="parent" shared="true" id="ab9-c8d-2cce-9612" includeChildSelections="false"/>
+                    <constraint type="max" value="7" field="selections" scope="parent" shared="true" id="5a68-9670-8b-579c" includeChildSelections="false"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -13824,7 +13826,8 @@
               <entryLinks>
                 <entryLink import="true" name="Heavy Flamer" hidden="false" type="selectionEntry" id="ed8e-bce3-4296-aeb0" targetId="6fef-cbbd-be33-44a4">
                   <constraints>
-                    <constraint type="exactly" value="7" field="selections" scope="parent" shared="true" id="bf09-5eaa-657a-97b7" includeChildSelections="true"/>
+                    <constraint type="min" value="7" field="selections" scope="parent" shared="true" id="3471-4ee-2aad-6636" includeChildSelections="false"/>
+                    <constraint type="max" value="7" field="selections" scope="parent" shared="true" id="c06a-902b-1b52-4b7c" includeChildSelections="false"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -13833,7 +13836,8 @@
               <entryLinks>
                 <entryLink import="true" name="Lascannon" hidden="false" type="selectionEntry" id="ca08-9a4-8d86-fe86" targetId="af85-b936-7f-430c">
                   <constraints>
-                    <constraint type="exactly" value="7" field="selections" scope="parent" shared="true" id="c72e-207b-8ad-15d7" includeChildSelections="true"/>
+                    <constraint type="min" value="7" field="selections" scope="parent" shared="true" id="7100-4a98-ae3-79bf" includeChildSelections="false"/>
+                    <constraint type="max" value="7" field="selections" scope="parent" shared="true" id="ec51-fb58-8d2c-1506" includeChildSelections="false"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -13866,7 +13870,8 @@
             </profile>
           </profiles>
           <constraints>
-            <constraint type="exactly" value="1" field="selections" scope="parent" shared="true" id="5991-3734-b37a-dfaf"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5991-3734-b37a-dfaf"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dc3e-5eef-1146-e236"/>
           </constraints>
           <infoLinks>
             <infoLink name="Twin-linked" hidden="false" type="rule" id="ce63-4d5d-cacf-9d4d" targetId="cf93-ad4d-2f08-a79d"/>
@@ -13875,7 +13880,8 @@
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Stormhammer Cannon" hidden="false" id="d82b-dcae-41eb-3094">
           <constraints>
-            <constraint type="exactly" value="1" field="selections" scope="parent" shared="true" id="8375-1735-7645-1277" includeChildSelections="true"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="938d-323-2df5-b6c7"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="82f2-c99e-9e0b-d537"/>
           </constraints>
           <profiles>
             <profile name="Stormhammer Cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="6537-c78c-63bc-3969">
@@ -14102,6 +14108,37 @@
         <infoLink name="Pistol" hidden="false" type="rule" id="917a-ce0d-eaea-475e" targetId="8bf7-8812-923d-29e4"/>
       </infoLinks>
       <comment>not collective</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plasma Cannon" hidden="false" id="f26-434a-79ef-40a5">
+      <profiles>
+        <profile name="➤ Plasma Cannon - Standard" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="b1cc-7a5-d0cd-cdb9">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="➤ Plasma Cannon - Supercharge" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="5159-3491-4a0e-9945">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Hazardous</characteristic>
+          </characteristics>
+          <comment>Vehicle Plasma</comment>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Blast" hidden="false" type="rule" id="f3ce-e3c-94ac-4091" targetId="6c1f-1cf7-ff25-c99e"/>
+        <infoLink name="Hazardous" hidden="false" type="rule" id="3d43-45bd-ba26-a775" targetId="8367-374c-f87-c627"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
@@ -15184,10 +15221,10 @@ While this model is joined to a unit, it can embark within any Transport that un
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="2 Plasma Cannons" hidden="false" id="74f5-eb95-c6ea-eab8">
               <entryLinks>
-                <entryLink import="true" name="Plasma Cannon" hidden="false" type="selectionEntry" id="bd55-5b9d-6fc7-34c5" targetId="3845-704c-f117-d6c9">
+                <entryLink targetId="f26-434a-79ef-40a5" id="d82f-290f-bd1b-e7cc" type="selectionEntry" name="Plasma Cannon" hidden="false">
                   <constraints>
-                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="c0b2-e1b6-5ffb-bed7"/>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="83e9-e6b7-fcfd-8f12"/>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="4c4f-3bf2-b759-5af7" includeChildSelections="true"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e2a3-ec51-afcf-4cf5" includeChildSelections="true"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
